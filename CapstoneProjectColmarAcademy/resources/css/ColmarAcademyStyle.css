@@ -1,0 +1,132 @@
+body {
+  margin: auto;
+  font-family: "Helvetica", sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  width: 100%;
+  }
+
+.button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: grey;
+  color: white;
+  width: 350px;
+  margin: auto;
+}
+  /*logo!*/
+
+.flex-containerheader{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  display: center;
+}
+
+img {
+padding-left: 24px;
+max-width: 60%;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+a {
+    color: black;
+}
+
+/* END of logo*/
+
+.flex-container1{
+    display: flex;
+    flex-wrap: start;
+    align-items: center;
+    background-color: lightgrey;
+    padding-left: 24px;
+    padding-right: 40px;
+    height: 600px;
+}
+.p1{
+  padding-bottom: 40px;
+}
+
+ul li {
+    margin-right:1rem;
+    align-items: center;
+    padding: 0 1rem;
+    text-align: right;
+    display: inline-flex;
+}
+
+.banner{
+  width: 60%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.bannersmall{
+  width: 450%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+blockquote{
+text-align: center;
+margin-left: 0;
+}
+
+.flex-container2{
+  display: flex;
+  flex-wrap: start;
+  align-items: center;
+  background-color: white;
+  padding-left: 24px;
+  padding-right: 40px;
+  width: 100%;
+  height: 800px;
+}
+
+.side{
+width: 100px; flex-grow: 1;
+}
+.center {
+width: 100px; flex-grow: 1;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+.textbox {
+    color: black;
+    padding: 24px;
+}
+
+
+h1{
+    font-size: 60px;
+    align-items: center;
+    margin-left: 100px;
+    padding-right: 24px;
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
+}
+
+blockquote{
+  padding-bottom: 40px;
+}
+
+.banner img{
+  Padding: 24 40 24 32px;
+  width: 1000px;
+  height: 500px;
+}
